@@ -1,0 +1,17 @@
+# Build
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Logs and local runtime
+*.log
+shimeji-ee.log
+
+# User skins copied next to the exe
+ShimejiEe/bin/
+ShimejiEe/obj/
+
+# Binaries bundled with the original Java drop
+*.exe
