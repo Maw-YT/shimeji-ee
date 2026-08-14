@@ -8,7 +8,7 @@ public static class ImageSetChooser
         if (!Directory.Exists(imgDir))
         {
             MessageBox.Show(
-                "No img folder was found.\nCopy a Shimeji-ee img directory next to the executable (or into ogshimejieesrc) and try again.\n\nLooked in:\n" + imgDir,
+                "No img folder was found.\nCopy a Shimeji-ee img directory next to the executable and try again.\n\nLooked in:\n" + imgDir,
                 "Shimeji-ee", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             return null;
         }

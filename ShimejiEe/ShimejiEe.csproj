@@ -14,7 +14,7 @@
     <PackageReference Include="Jint" Version="4.2.2" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\ogshimejieesrc\conf\**\*">
+    <Content Include="..\conf\**\*">
       <Link>conf\%(RecursiveDir)%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

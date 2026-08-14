@@ -25,7 +25,6 @@ public static class AppPaths
         for (var i = 0; i < 8 && dir != null; i++, dir = dir.Parent)
         {
             candidates.Add(dir.FullName);
-            candidates.Add(Path.Combine(dir.FullName, "ogshimejieesrc"));
         }
 
         foreach (var candidate in candidates.Distinct())
